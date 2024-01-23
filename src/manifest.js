@@ -13,7 +13,7 @@ export default defineManifest({
     128: 'img/logo-128.png',
   },
   action: {
-    default_popup: 'popup.html',
+    // default_popup: 'popup.html', //暂时不弹出popup菜单
     default_icon: 'img/logo-48.png',
   },
   options_page: 'options.html',
@@ -38,7 +38,7 @@ export default defineManifest({
     },
   ],
   permissions: ['sidePanel', 'storage'],
-  chrome_url_overrides: {
-    newtab: 'newtab.html',
-  },
+  // chrome_url_overrides: {   //不影响新建页面
+  //   newtab: 'newtab.html',
+  // },
 })
