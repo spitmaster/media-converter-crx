@@ -21,6 +21,7 @@
     "fmt": "prettier --write '**/*.{vue,js,json,css,scss,md}'"
   },
   "dependencies": {
+    "element-plus": "^2.5.3",
     "vue": "^3.2.37"
   },
   "devDependencies": {
